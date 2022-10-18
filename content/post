@@ -13,7 +13,11 @@ markdown: false
 		<h3>Posts</h3>
 		<ol>
 			{{#postList}}
+<<<<<<< HEAD
 				<li><a href="{{pathPrefix}}{{pagePathPrefix}}{{encodeURI(filename)}}">{{title}}</a></li>
+=======
+				<li><a href="{{pathPrefix}}{{pagePathPrefix}}{{filename}}">{{title}}</a></li>
+>>>>>>> 592e0bd8db52bccab57e464ec6a781bff9448bd7
 			{{/postList}}
 		</ol>
 	</div>
